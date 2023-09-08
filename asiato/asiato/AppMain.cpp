@@ -108,4 +108,16 @@ void PlayerUpdata()
 	{
 		playY -= 1;
 	}
+	if (keys[KEY_INPUT_S] == 1)
+	{
+		playY += 1;
+	}
+	if (keys[KEY_INPUT_A] == 1)
+	{
+		playX -= 1;
+	}
+	if (keys[KEY_INPUT_D] == 1)
+	{
+		playX += 1;
+	}
 }
